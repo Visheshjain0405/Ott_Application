@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_activity"
+    android:background="@drawable/login_app">
+
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+        android:background="@drawable/grad1">
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:src="@drawable/app_logo"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="100dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to"
+                android:layout_margin="25dp"
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MR MOVIE"
+                android:textSize="50dp"
+                android:textColor="@color/red"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold|italic"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Id"
+                android:textColorHint="@color/white"
+                android:layout_marginHorizontal="25dp"
+                android:paddingVertical="25dp"
+                android:id="@+id/emailid"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColorHint="@color/white"
+                android:layout_marginHorizontal="25dp"
+                android:paddingVertical="25dp"
+                android:id="@+id/password"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:text="Login"
+                android:backgroundTint="@color/red"
+                android:textColor="@color/white"
+                android:id="@+id/loginbutton"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginTop="-10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="not registered ? click here for sign up"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:id="@+id/signuptext"/>
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_marginTop="75dp">-->
+<!--
+<!-        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_marginTop="50dp">-->
+<!--           <androidx.cardview.widget.CardView-->
+<!--               android:layout_width="match_parent"-->
+<!--               android:layout_height="75dp"-->
+<!--               android:layout_marginHorizontal="25dp"-->
+<!--               app:cardCornerRadius="10dp"-->
+<!--               android:backgroundTint="#000000">-->
+<!--               <TextView-->
+<!--                   android:layout_width="wrap_content"-->
+<!--                   android:layout_height="wrap_content"-->
+<!--                   android:text="Email Address"-->
+<!--                   android:layout_marginLeft="25dp"/>-->
+<!--               <EditText-->
+<!--                   android:layout_width="match_parent"-->
+<!--                   android:layout_height="wrap_content"-->
+<!--                   android:id="@+id/emailid"-->
+<!--                   android:layout_marginHorizontal="25dp"/>-->
+<!--           </androidx.cardview.widget.CardView>-->
+<!--        </LinearLayout>-->
+</LinearLayout>
+</RelativeLayout>

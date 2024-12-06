@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "663240188950",
+    "project_id": "mr-movie-a7250",
+    "storage_bucket": "mr-movie-a7250.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663240188950:android:500bcb811a12b9e75f8137",
+        "android_client_info": {
+          "package_name": "com.example.mypro1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANAFAN0xgEWrKAu-qfcUUrF_V8m3JbAgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
